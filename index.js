@@ -1,3 +1,4 @@
+require("@babel/register")({});
 const express = require('express');
 const fetch = require('node-fetch');
 const bluebird = require('bluebird');
